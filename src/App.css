@@ -1,18 +1,21 @@
+html,
+body,
+#root,
+#root > div {
+  height: 100%;
+}
+
 body * {
   font-family: "Dosis";
   background-color: #ffccb3;
   text-decoration: none;
-  font-size:20px;
-}
-
-html, body, #root, #root>div {
-  height: 100%;
+  font-size: 20px;
 }
 
 .pageHeader {
-  font-family: 'Monoton', cursive;
-  font-size:90px;
-  color: #0000FE;
+  font-family: "Monoton", cursive;
+  font-size: 90px;
+  color: #0000fe;
 }
 
 .submitGuess {
@@ -49,7 +52,7 @@ input {
   box-shadow: -10px -5px 5px blue;
   padding: 10px;
   margin-bottom: 20px;
-  width:100%;
+  width: 100%;
 }
 
 .App {
@@ -198,7 +201,7 @@ input {
 }
 
 .room:hover {
-  background: #FFDFCF;
+  background: #ffdfcf;
 }
 
 .roomGallery {
@@ -208,6 +211,6 @@ input {
 }
 
 .restartBtn {
-  background: #FF595B;
+  background: #ff595b;
   color: white;
 }
