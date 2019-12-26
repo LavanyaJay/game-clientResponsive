@@ -1,9 +1,9 @@
-html,
+/* html,
 body,
 #root,
 #root > div {
   height: 100%;
-}
+} */
 
 body * {
   font-family: "Dosis";
@@ -82,13 +82,16 @@ input {
   display: grid;
   border: 1px blue solid;
   justify-content: center;
+  /*   grid-template-columns:
+    minmax(50px, 80px) minmax(50px, 80px) minmax(50px, 80px)
+    minmax(50px, 80px) minmax(50px, 80px) minmax(50px, 80px);
+  grid-template-rows: 50px 50px 50px; */
 }
 .box {
   background-color: lightblue;
   border: 1px blue solid;
-  width: 80px;
-  height: 80px;
-
+  height: 6vh;
+  width: 5vw;
   color: white;
   text-align: center;
   font-size: 30px;
@@ -120,18 +123,21 @@ input {
 }
 
 .blueSqr {
-  background-image: url("http://www.clker.com/cliparts/G/9/u/6/t/2/blue-square-hi.png");
-  background-size: 80px 80px;
+  /* background-image: url("http://www.clker.com/cliparts/G/9/u/6/t/2/blue-square-hi.png");
+  background-size: minmax(30px, 80px) 1fr 1fr; */
+  background-color: #0000fe;
 }
 
 .redSqr {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEb4csW4AeKOxEJu9K89ggJLV_Odn-s7h617LCdhVN9Y86ab0c&s");
-  background-size: 80px 80px;
+  /*  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEb4csW4AeKOxEJu9K89ggJLV_Odn-s7h617LCdhVN9Y86ab0c&s");
+  background-size: 80px 80px; */
+  background-color: #ff595b;
 }
 
 .yellowSqr {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvktTbSbjN4n8ZGAsSMl61zud8YsfxkzkbUq2Cg4YbNKm9dyJH&s");
-  background-size: 80px 80px;
+  /*  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvktTbSbjN4n8ZGAsSMl61zud8YsfxkzkbUq2Cg4YbNKm9dyJH&s");
+  background-size: 80px 80px; */
+  background-color: goldenrod;
 }
 
 .gameControls {
@@ -158,6 +164,7 @@ input {
   align-items: center;
   justify-content: flex-start;
   justify-items: center;
+  height: inherit;
 }
 
 .popup {
