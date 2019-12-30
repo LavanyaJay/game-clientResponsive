@@ -1,6 +1,6 @@
 ## Lingo - an online word game
 
-Check out the remotely-hosted [website](https://secret-forest-60773.herokuapp.com/)!
+Check out the remotely-hosted [website](https://lingogame.netlify.com/)!
 
 ## Table of contents
 
@@ -17,7 +17,7 @@ The first player to guess the word wins.
 
 Here's a little demo...
 
-![gif](./demo/game.gif)
+![gif](./demo/lingogamedemo.gif)
 
 ## How to start
 
