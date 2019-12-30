@@ -1,9 +1,8 @@
-/* html,
+html,
 body,
-#root,
-#root > div {
+#root {
   height: 100%;
-} */
+}
 
 body * {
   font-family: "Dosis";
@@ -86,11 +85,11 @@ input {
 .box {
   background-color: lightblue;
   border: 1px blue solid;
-  height: 6vh;
+  height: 7vh;
   width: 5vw;
   color: white;
   text-align: center;
-  font-size: 3vw;
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -160,7 +159,7 @@ input {
   align-items: center;
   justify-content: flex-start;
   justify-items: center;
-  height: inherit;
+  height: 750px;
 }
 
 .popup {
