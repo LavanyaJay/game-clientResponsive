@@ -11,7 +11,7 @@ Check out the remotely-hosted [website](https://lingogame.netlify.com/)!
 
 ## Preface
 
-Lingo is a game played between two players.
+Lingo is a word game played between two players.
 The players need to enter a game room. At the start of the game, the players are shown the first letter of a 6-letter word. The goal of the game is for the players to guess the six letter word. Each of them gets 3 chances to guess the word. For each guess, the application shows a red square for every letter in the right position, yellow square for every letter in the wrong position and blue square for letters that don't belong to the word.
 The first player to guess the word wins.
 
@@ -25,11 +25,7 @@ Here's a little demo...
 2. Run `npm install` on your terminal to install all the dependendencies
 3. Run `npm start` to get a preview of the front-end
 
-## Still to do
-
-- Make the app responsive!
-
-- **_HAVE FUN!!!_**
+**_HAVE FUN!!!_**
 
 ## Technologies used for this project
 
