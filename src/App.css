@@ -82,10 +82,6 @@ input {
   display: grid;
   border: 1px blue solid;
   justify-content: center;
-  /*   grid-template-columns:
-    minmax(50px, 80px) minmax(50px, 80px) minmax(50px, 80px)
-    minmax(50px, 80px) minmax(50px, 80px) minmax(50px, 80px);
-  grid-template-rows: 50px 50px 50px; */
 }
 .box {
   background-color: lightblue;
@@ -94,7 +90,7 @@ input {
   width: 5vw;
   color: white;
   text-align: center;
-  font-size: 15px;
+  font-size: 3vw;
   font-weight: bold;
 }
 
